@@ -1,0 +1,39 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    background-color: #4CAF50; /* Green background */
+    padding: 15px; /* Padding around the navbar */
+    color: white; /* White text color */
+    text-align: center; /* Center align text */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow effect for depth */
+    position: sticky; /* Stick to the top of the page */
+    top: 0; /* Position at the top */
+    z-index: 1000; /* Keep it above other content */
+}
+
+.navbar h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 24px; /* Font size for the title */
+    font-weight: bold; /* Make it bold */
+}
+
+.navbar a {
+    color: white; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 15px; /* Horizontal spacing between links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar a:hover {
+    color: #FFD700; /* Change color on hover to gold */
+}
+
+.navbar .nav-links {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center align links */
+}
+
+.navbar .nav-links li {
+    list-style: none; /* Remove bullet points */
+}
+
